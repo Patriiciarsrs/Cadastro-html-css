@@ -1,0 +1,25 @@
+body{
+height: 100vh;
+display: flex;
+flex-direction: column;
+
+justify-content: center;
+align-items: center;
+gap: 10px;
+background-color: violet;
+}
+input,button{
+    outline: none;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: bisque;
+}
+button{
+    width: 94%px ;
+
+}
+
+button:hover{
+    background-color: rosybrown;
+}
